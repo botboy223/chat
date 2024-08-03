@@ -5,7 +5,7 @@ import requests
 # Replace these variables with your specific details
 GITHUB_TOKEN = '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'
 REPO_OWNER = 'botboy223'
-REPO_NAME = 'repository-chat'
+REPO_NAME = 'chat'
 WORKFLOW_FILE = '.github/workflows/main.yml'
 BRANCH = 'main'
 
