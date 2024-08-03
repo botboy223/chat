@@ -41,7 +41,7 @@ jobs:
       uses: actions/upload-pages-artifact@v1
       with:
         name: web-build-artifact
-        path: ./public  # Adjust this path if your build output is different
+        path: ./public  # Ensure this matches your Webpack output path
 
   deploy:
     needs: build
