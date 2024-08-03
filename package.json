@@ -2,7 +2,7 @@
   "name": "my-webpage",
   "version": "1.0.0",
   "scripts": {
-    "test": "echo \"No tests available\"",
+    "test": "jest",
     "build": "webpack --mode production"
   },
   "devDependencies": {
@@ -10,6 +10,7 @@
     "webpack-cli": "^4.0.0",
     "babel-loader": "^8.0.0",
     "@babel/core": "^7.0.0",
-    "@babel/preset-env": "^7.0.0"
+    "@babel/preset-env": "^7.0.0",
+    "jest": "^27.0.0"
   }
 }
